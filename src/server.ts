@@ -7,6 +7,7 @@ import db from './config/database';
 })();
 
 const port = process.env.PORT || 3000;
+
 const server = app.listen(port, async () => {
   console.log(`Api running on port ${port}`);
 });
